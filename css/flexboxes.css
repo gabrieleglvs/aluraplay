@@ -12,6 +12,17 @@
     display: none;
 }
 
+/* SUPERIOR SEÇÃO */
+
+.superior__secao__container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /*para que o texto dentro do link nao quebre*/
+    overflow: scroll; /*aplicar barra de rolagem*/
+    gap: 15px;
+}
+
+
 /* RODAPE */
 
 .rodape__container {
