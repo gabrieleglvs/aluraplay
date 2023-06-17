@@ -1,3 +1,5 @@
+/* CABEÇALHO */
+
 .cabecalho__container {
     display: flex; /*todos os elementos da tag ficam em linha*/
     justify-content: space-between;
@@ -10,8 +12,21 @@
     display: none;
 }
 
+/* RODAPE */
+
+.rodape__container {
+    display: flex;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
+    flex-flow: column wrap;
+}
+
 @media (min-width: 834px) {
     .cabecalho__pesquisar__item {
         display: block;
+    }
+
+    .rodape__container {
+        justify-content: space-between;
     }
 }
